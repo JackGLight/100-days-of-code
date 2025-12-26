@@ -1,0 +1,6 @@
+apple
+banana
+python
+hangman
+developer
+algorithm
