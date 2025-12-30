@@ -1,0 +1,113 @@
+# question_data = [
+#     {"text": "A slug's blood is green.", "answer": "True"},
+#     {"text": "The loudest animal is the African Elephant.", "answer": "False"},
+#     {
+#         "text": "Approximately one quarter of human bones are in the feet.",
+#         "answer": "True",
+#     },
+#     {
+#         "text": "The total surface area of a human lungs is the size of a football pitch.",
+#         "answer": "True",
+#     },
+#     {
+#         "text": "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.",
+#         "answer": "True",
+#     },
+#     {
+#         "text": "In London, UK, if you happen to die in the House of Parliament, you are entitled to a state funeral.",
+#         "answer": "False",
+#     },
+#     {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
+#     {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
+#     {"text": "Google was originally called 'Backrub'.", "answer": "True"},
+#     {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
+#     {
+#         "text": "No piece of square dry paper can be folded in half more than 7 times.",
+#         "answer": "False",
+#     },
+#     {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"},
+# ]
+
+
+question_data = [
+        {
+            "type": "boolean",
+            "difficulty": "medium",
+            "category": "Animals",
+            "question": "The average lifespan of a wildcat is only around 5-6 years. ",
+            "correct_answer": "False",
+            "incorrect_answers": ["True"],
+        },
+        {
+            "type": "boolean",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "The scientific name for the Southern Lights is Aurora Australis?",
+            "correct_answer": "True",
+            "incorrect_answers": ["False"],
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "Entertainment: Video Games",
+            "question": "The ultimate phrase used by Pharah from Overwatch is: &quot;Justice rains from above!&quot;",
+            "correct_answer": "True",
+            "incorrect_answers": ["False"],
+        },
+        {
+            "type": "boolean",
+            "difficulty": "medium",
+            "category": "Entertainment: Video Games",
+            "question": "In &quot;Team Fortress 2&quot;, the &quot;Bill&#039;s Hat&quot; is a reference to the game &quot;Dota 2&quot;.",
+            "correct_answer": "False",
+            "incorrect_answers": ["True"],
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "Entertainment: Video Games",
+            "question": "The Konami Code is known as Up, Up, Down, Down, Left, Right, Right, Left, B, A, Start.",
+            "correct_answer": "False",
+            "incorrect_answers": ["True"],
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "Entertainment: Video Games",
+            "question": "In 2019, Minecraft outsold Tetris to become the world&#039;s best-selling video game.",
+            "correct_answer": "True",
+            "incorrect_answers": ["False"],
+        },
+        {
+            "type": "boolean",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "The Sonoran Desert is located in eastern Africa.",
+            "correct_answer": "False",
+            "incorrect_answers": ["True"],
+        },
+        {
+            "type": "boolean",
+            "difficulty": "hard",
+            "category": "Science: Mathematics",
+            "question": "In Topology, the complement of an open set is a closed set.",
+            "correct_answer": "True",
+            "incorrect_answers": ["False"],
+        },
+        {
+            "type": "boolean",
+            "difficulty": "hard",
+            "category": "Art",
+            "question": "The Statue of Liberty&#039;s official name is &ldquo;Liberty Enlightening the World&rdquo;.",
+            "correct_answer": "True",
+            "incorrect_answers": ["False"],
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "Art",
+            "question": "Leonardo da Vinci&#039;s Mona Lisa does not have eyebrows.",
+            "correct_answer": "True",
+            "incorrect_answers": ["False"],
+        },
+    ]
