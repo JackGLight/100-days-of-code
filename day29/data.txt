@@ -1,3 +1,1 @@
 apple,jack@email.com,jackapple
-amazon,jack@email.com,amazonpass
-test site,jack@email.com,B0)$vb)CK3q+m43G
