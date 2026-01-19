@@ -1,0 +1,91 @@
+Question,Answer
+What does a p-value represent?,Probability of observing data this extreme assuming the null is true
+What is statistical significance?,Evidence against the null hypothesis
+Common alpha level used in practice?,0.05
+What does a confidence interval represent?,Plausible values for a population parameter
+What does a 95% confidence interval mean?,95% of such intervals would contain the true parameter
+Difference between population and sample?,Population is entire group; sample is a subset
+What is sampling bias?,Systematic error from non-random sampling
+What is variance?,Average squared deviation from the mean
+Why prefer standard deviation over variance?,Same units as the data
+What does the law of large numbers state?,Sample mean converges to population mean
+What distribution models a single binary trial?,Bernoulli
+What distribution models counts over time or space?,Poisson
+When is the normal distribution appropriate?,"Symmetric, unimodal data"
+What does the Central Limit Theorem state?,Sampling mean approaches normality
+What defines a normal distribution?,Mean and variance
+What does skewness measure?,Asymmetry of a distribution
+What does kurtosis measure?,Tail heaviness
+When can Poisson be approximated by normal?,When lambda is large
+What does independence mean?,Events do not affect each other
+What is a uniform distribution?,All outcomes equally likely
+What does correlation measure?,Linear relationship strength
+Range of Pearson correlation?,-1 to 1
+What does zero correlation imply?,No linear relationship
+Correlation vs causation?,Correlation does not imply causation
+When use Spearman correlation?,Monotonic or non-linear relationships
+What is multicollinearity?,Highly correlated predictors
+Why is multicollinearity a problem?,Inflated coefficient variance
+How detect multicollinearity?,Variance Inflation Factor
+What does R-squared represent?,Variance explained by the model
+Adjusted R-squared does what?,Penalizes unnecessary predictors
+What is the null hypothesis?,Default assumption of no effect
+What is the alternative hypothesis?,What you want to prove
+Type I error?,False positive
+Type II error?,False negative
+What is statistical power?,Probability of detecting a true effect
+What increases power?,Larger sample size or effect size
+When use a t-test?,Comparing means
+One-tailed vs two-tailed test?,Directional vs non-directional
+When use ANOVA?,Comparing more than two means
+Why correct for multiple testing?,Reduce false positives
+What does a regression coefficient represent?,Expected change in target
+Assumptions of linear regression?,"Linearity, independence, homoscedasticity, normal errors"
+What is heteroscedasticity?,Non-constant variance of errors
+How detect heteroscedasticity?,Residual plots
+What is logistic regression used for?,Binary classification
+What does logistic regression output?,Probabilities
+Why not use linear regression for classification?,Unbounded predictions
+What is an odds ratio?,Exponentiated logistic coefficient
+What does regularization do?,Prevents overfitting
+L1 vs L2 regularization?,Sparsity vs shrinkage
+What is overfitting?,Model fits noise
+What is underfitting?,Model too simple
+Train vs test gap indicates?,Overfitting
+What is cross-validation?,Repeated train-test splits
+Why use cross-validation?,Stable performance estimate
+What is accuracy?,Correct predictions divided by total
+When is accuracy misleading?,Imbalanced datasets
+What is precision?,TP divided by predicted positives
+What is recall?,TP divided by actual positives
+What does ROC-AUC measure?,Ranking ability of classifier
+What is an A/B test?,Controlled experiment with variants
+What is a control group?,Baseline comparison group
+What is a treatment group?,Group receiving change
+Primary metric in A/B testing?,Business outcome of interest
+Why randomize users?,Reduce bias
+What is experiment power?,Ability to detect a real effect
+What causes peeking bias?,Stopping tests early
+What is novelty effect?,Temporary behavior change
+Why predefine stopping rules?,Avoid false positives
+What is CUPED?,Variance reduction technique
+What is an outlier?,Extreme observation
+How can outliers affect models?,Distort estimates
+Mean vs median for skewed data?,Median
+How handle missing data?,Impute or remove
+What is data leakage?,Using future information
+Why scale features?,Comparable magnitudes
+Normalization vs standardization?,Min-max vs z-score
+Why stratify train-test split?,Preserve class distribution
+When log-transform a variable?,Right-skewed data
+Why scale before regularization?,Penalty depends on scale
+What does GROUP BY do?,Aggregates rows by category
+COUNT vs COUNT DISTINCT?,Total rows vs unique values
+What does a LEFT JOIN do?,Keeps all left table rows
+INNER JOIN vs LEFT JOIN?,Matches only vs keep left
+What is a window function?,Operates over partitions
+Why use ROW_NUMBER?,Rank rows
+What causes duplicate rows in joins?,Many-to-many joins
+How handle NULLs in SQL?,COALESCE
+What is an aggregate function?,Summarizes data
+HAVING vs WHERE?,Filter after aggregation
